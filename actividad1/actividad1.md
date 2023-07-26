@@ -14,6 +14,12 @@ El kernel es el núcleo o componente central del sistema operativo. Este se enca
 | Kernel Microkernel | Este adopta un enfoque minimalista al trasladar la mayor parte de las funcionalidades del sistema operativo fuera del kernel principal y hacia espacio de usuario. Tambien se encarga solo de las tareas esenciales, como la gestión de la memoria, la comunicación entre procesos y la programación básica del hardware. Otras funcionalidades, como los sistemas de archivos y los controladores de dispositivos, se ejecutan como procesos en espacio de usuario. Esto mejora la estabilidad y seguridad del sistema, ya que un fallo en un componente no afectará al resto del sistema. |
 | Kernel Híbrido | Este kernel combina características del kernel monolítico y del microkernel. Aunque algunas funcionalidades se ejecutan en el espacio de usuario para mejorar la estabilidad, otras funciones críticas aún residen en el espacio del kernel para obtener un mejor rendimiento. Los kernels híbridos buscan encontrar un equilibrio entre la simplicidad y la flexibilidad. |
 
+
+|  |  **Tipos de Kernels**   | |
+| :--------: | :-------: |:-------:
+**Kernel Monolítico**| **Kernel Microkernel** | **Kernel Híbrido**|
+|[![kr-mono.jpg](https://i.postimg.cc/0ykSgbHh/kr-mono.jpg)](https://postimg.cc/XpPqd7Wg)|[![microke.jpg](https://i.postimg.cc/vZ0VGbJT/microke.jpg)](https://postimg.cc/Bj16g9Qf)|[![hibrkr-removebg-preview.png](https://i.postimg.cc/D03g17yF/hibrkr-removebg-preview.png)](https://postimg.cc/r0gxkXrY)|
+
  ## Diferencias
 
 Cada tipo de kernel tiene sus ventajas y desventajas. Los kernels monolíticos suelen ser más rápidos y eficientes debido a su diseño integrado, pero pueden ser menos robustos y más susceptibles a fallas. Los kernels microkernel son más seguros y estables, pero pueden incurrir en una disminución del rendimiento debido a la comunicación entre procesos en el espacio de usuario. Los kernels híbridos intentan aprovechar lo mejor de ambos enfoques, ofreciendo una combinación de rendimiento y estabilidad. Es importante tener en cuenta que la elección del tipo de kernel está determinada por las necesidades y objetivos del sistema operativo y, en última instancia, influye en su diseño, rendimiento y seguridad. 
