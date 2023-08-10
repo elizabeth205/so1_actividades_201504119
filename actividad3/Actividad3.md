@@ -1,5 +1,4 @@
-# Actividad 3
-Gestión de Permisos
+# Actividad 3: Gestión de Permisos
 
 ## Parte 1: Gestión de Usuarios
 
